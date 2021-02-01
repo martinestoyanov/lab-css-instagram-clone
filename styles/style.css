@@ -7,4 +7,94 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: repeat-x url(/images/bgtile.png);
+  background-size: 100% 40%;
+}
+
+#bgimage {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+
+#top-section {
+
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 60px auto;
+}
+
+#phones {
+  display: block;
+  width: 30%;
+}
+
+#right {
+  width: 45%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 50%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+}
+
+#logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 50%;
+}
+
+#log-in-button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #7fb0d8, #06365f);
+}
+
+#log-in-button img {
+  display: block;
+  size: 50%;
+}
+
+#log-in-button span {
+  color: white;
+}
+
+#stores {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#text {
+  width: 80%;
+  margin: auto;
+}
+
+#text-box {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: 50% -6px;
+  background-size: contain;
 }
